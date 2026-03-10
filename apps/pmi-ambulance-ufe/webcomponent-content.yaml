@@ -4,7 +4,10 @@ metadata:
   name: pmi-ambulance-ufe-content
 spec:
   microFrontend: pmi-ambulance-ufe
-  element: pmi-ambulance-wl-list
+  element: pmi-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /pmi-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
