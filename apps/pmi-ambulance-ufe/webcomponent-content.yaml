@@ -8,6 +8,10 @@ spec:
   attributes:
     - name: base-path
       value: /pmi-ambulance-wl/
+    - name: api-base
+      value: http://localhost:5000/api
+    - name: ambulance-id
+      value: bobulova
   displayRules:
     - allOf:
       - context-name: main-content
