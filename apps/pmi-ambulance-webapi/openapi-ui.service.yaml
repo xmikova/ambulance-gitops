@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: pmi-openapi-ui
+spec:
+  selector:
+    pod: pmi-ambulance-webapi-label
+  ports:
+  - name: http
+    protocol: TCP
+    port: 80
+    targetPort: 8081

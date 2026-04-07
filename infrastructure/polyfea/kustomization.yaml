@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - https://github.com/polyfea/manifests//gitops/fluxcd
+  - http-route.yaml
 
 
 configMapGenerator:
