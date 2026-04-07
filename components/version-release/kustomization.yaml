@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: xmikova/ambulance-ufe
   newName: xmikova/ambulance-ufe
-  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.2.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: xmikova/ambulance-wl-webapi
   newName: xmikova/ambulance-wl-webapi
   newTag: 1.1.0
