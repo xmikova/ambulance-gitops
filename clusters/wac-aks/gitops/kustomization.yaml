@@ -12,3 +12,4 @@ resources:
 - cd.kustomization.yaml
 - install.kustomization.yaml
 - git-repository.yaml
+- project.yaml

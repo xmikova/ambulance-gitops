@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: pmi-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: Zoznam čakajúcich Petra Mikova # napr. "Zoznam čakajúcich <pfx>"
+  description: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Petra Mikova" # Zadajte mená autorov
+  azureLink: "https://pmi-ambulance-fqbtgabte5cwaae4.westeurope-01.azurewebsites.net/"
+  frontendRepoUrl: "https://github.com/xmikova/ambulance-ufe" # odkaz na repozitár s frontendom
+  backendRepoUrl: "https://github.com/xmikova/ambulance-webapi" # odkaz na repozitár s backendom
+  gitopsRepoUrl: "https://github.com/xmikova/ambulance-gitops" # odkaz na repozitár s GitOps konfiguráciami

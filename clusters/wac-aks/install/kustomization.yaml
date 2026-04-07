@@ -7,6 +7,7 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: pmi-ambulance-wl
+    wac-fiit.github.io/project: pmi-ambulance-wl
   includeSelectors: true
   includeTemplates: true
 
