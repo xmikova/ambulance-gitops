@@ -4,14 +4,14 @@ metadata:
   name: wac-hospital-gateway
   namespace: wac-hospital
   annotations:
-  cert-manager.io/issuer: development-issuer # patch this to letsencrypt-issuer for production cluster
-  cert-manager.io/email-sans: "petramikova10@gmail.com"
-  cert-manager.io/subject-organizations: "WAC-Hospital"
-  cert-manager.io/subject-organizationalunits: "IT Support"
-  cert-manager.io/subject-countries: "SK"
-  cert-manager.io/subject-localities: "Bratislava"
-  cert-manager.io/revision-history-limit: "3"
-  cert-manager.io/private-key-rotation-policy: Always
+    cert-manager.io/issuer: development-issuer # patch this to letsencrypt-issuer for production cluster
+    cert-manager.io/email-sans: "petramikova10@gmail.com"
+    cert-manager.io/subject-organizations: "WAC-Hospital"
+    cert-manager.io/subject-organizationalunits: "IT Support"
+    cert-manager.io/subject-countries: "SK"
+    cert-manager.io/subject-localities: "Bratislava"
+    cert-manager.io/revision-history-limit: "3"
+    cert-manager.io/private-key-rotation-policy: Always
 spec:
   gatewayClassName: wac-hospital-gateway-class
   listeners:
